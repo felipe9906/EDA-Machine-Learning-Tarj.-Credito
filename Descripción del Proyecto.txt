@@ -1,0 +1,39 @@
+INFORMACIÓN DEL PROYECTO
+
+El objetivo del proyecto es identificar, clasificar y generar modelos de 
+clientes que estan abandoando sus tarjetas de credito en un banco.
+
+CARPETAS
+
+DATASETS: El dataset original usado se obtuvo de kaggle, en esta carpeta 
+se encuuentra el archivo en estado puro. El link de descarga es el siguiente: 
+https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers?resource=download
+
+PROYECTO:
+	
+	* Preprocesamiento: En este archivo se cambiaron los nombres de las
+	columnas, se eliminaron columnas con información considerada NO 
+	relevante. En general, se realizaron tareas de preparacion de datos 
+	para los posteriores modelos y Analisis exploratorio.
+
+	IMPORTANTE: En esta parte del proyecto se asignaron valores numéricos
+	a datos cualitativos para que se pudiesen trabajar desde los modelos
+	de Machine Learning. 
+	
+	EL ARCHIVO RESULTANTE SE DENOMINÓ clientes.csv con el que se trabajo en
+	las siguientes etapas.
+
+	* Clientes.csv:	Archivo de valores separados por comas, este archivo 
+	es el resultante de el preprocesamiento y son los datos base para los 
+	siguientes analisis.
+	
+	* Analisis Exploratorio: En este documento se describen algunas 
+	caracteristicas de los clientes que abandonaron el producto tales
+	como edad, tipo de producto, estado civil, Personas Dependientes 
+	del cliente, Su antigüedad entre otros parametros ediante graficas.
+
+	* Modelos Machine Learning: En esta carpeta se encuentran los diferentes
+	algoritmos de clasificacíon de clientes en el cual se busca predecir si 
+	un cliente aleatorio tiene probabilidad de abandonar la tarjeta de credito
+	para que el banco pueda ofrecerle atencion prioritaria y asi que este
+	No abandone su producto.
